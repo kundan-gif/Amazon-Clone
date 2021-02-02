@@ -89,15 +89,19 @@
         android:layout_marginStart="@dimen/dp_20"
         android:layout_marginEnd="@dimen/dp_20"
         />
-    <TextView
-        android:id="@+id/SkipSignIn"
+    <Button
+        android:id="@+id/btnSkipSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/skip_sign_in"
         android:textColor="@color/black"
         android:gravity="center"
+
+        android:textAllCaps="false"
+        android:background="@drawable/rectangle_bg"
+
         android:textSize="@dimen/sp_20"
-        android:background="@drawable/gradiantbtn_bg"
+       
         android:backgroundTint="@color/grey"
         android:padding="@dimen/dp_10"
         android:layout_marginTop="@dimen/dp_10"
