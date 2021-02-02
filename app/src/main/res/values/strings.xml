@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">AmazonClone</string>
     <string name="select_your_language">Select Your Language</string>
+    <string name="sign_in_to_your_account">Sign in to your Account</string>
+    <string name="view_your_wish_list">View your wish list</string>
+    <string name="find_and_reorder_past_purchase">Find and reorder past purchase</string>
+    <string name="track_your_purchase">Track your purchase</string>
+    <string name="already_a_customer_sign_in">Already a customer?Sign in</string>
+    <string name="new_to_amazon_in_create_an_account">New to Amazon.in?Create an Account</string>
+    <string name="skip_sign_in">Skip sign in</string>
 </resources>
