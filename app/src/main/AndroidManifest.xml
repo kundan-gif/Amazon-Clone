@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmazonClone">
+
         <activity
             android:name=".Activities.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.AmazonClone.NoActionBar"></activity>
+
+        <activity android:name=".Activities.LoginActivityP"></activity>
+        <activity android:name=".Activities.SignUpActivity" />
+
         <activity android:name=".Activities.SignInActivity" />
         <activity android:name=".Activities.LanguageActivity">
             <intent-filter>
