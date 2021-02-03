@@ -25,7 +25,6 @@ public class SignInActivity extends AppCompatActivity {
         initViews();
     }
 
-    
 
     private void initViews() {
         mBtnAlreadySignin = findViewById(R.id.btnAlreadyCustomer);

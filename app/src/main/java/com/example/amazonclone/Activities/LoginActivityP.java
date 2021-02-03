@@ -39,7 +39,8 @@ public class LoginActivityP extends AppCompatActivity implements View.OnClickLis
                 startActivity(intent);
                 break;
             case R.id.btnAlreadyCustomer:
-//               Intent intent = new Intent(getBaseContext(),);
+               Intent intentOne = new Intent(LoginActivityP.this,HomeActivity.class);
+               startActivity(intentOne);
                 break;
 
         }
