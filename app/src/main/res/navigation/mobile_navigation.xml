@@ -14,12 +14,17 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.amazonclone.Activities.ui.gallery.GalleryFragment"
-        android:label="@string/menu_shop"
+        android:label=""
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.amazonclone.Activities.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label=""
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_Settings"
+        android:name="com.example.amazonclone.Activities.ui.Settings.SettingsFragment"
+        android:label=""
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
