@@ -42,7 +42,20 @@
     <string name="help">Help</string>
     <string name="_1996_2021_amazon_com_inc_or_its_affiliates">© 1996-2021, Amazon.com, Inc. or its affiliates</string>
     <string name="we_will_send_you_a_text_to_verify_your_phone_message_and_data_rates_may_apply">We will send you a text to verify your phone.Message and Data rates may apply.</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
 
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
 
 </resources>
