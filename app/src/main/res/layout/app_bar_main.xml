@@ -3,31 +3,61 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
     tools:context=".Activities.HomeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar"
         android:theme="@style/Theme.AmazonClone.AppBarOverlay">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            app:logo="@drawable/ic_amazon_2"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@drawable/side_nav_bar"
-            app:popupTheme="@style/Theme.AmazonClone.PopupOverlay" />
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:logo="@drawable/ic_amazon_2"
+                app:popupTheme="@style/Theme.AmazonClone.PopupOverlay" />
+
+            <ImageButton
+                android:id="@+id/ibMic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_15"
+                android:layout_toStartOf="@+id/tvCart"
+                android:backgroundTint="#98E1D7"
+                android:padding="@dimen/dp_15"
+                android:src="@drawable/ic_mic" />
+
+            <ImageButton
+                android:id="@+id/tvCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_15"
+                android:layout_marginEnd="23dp"
+                android:backgroundTint="#98E1D7"
+                android:drawablePadding="11dp"
+                android:src="@drawable/ic_cartshoppingp" />
+
+        </RelativeLayout>
 
 
 
     </com.google.android.material.appbar.AppBarLayout>
 
 
-
     <include layout="@layout/content_main" />
-
 
 
 </LinearLayout>

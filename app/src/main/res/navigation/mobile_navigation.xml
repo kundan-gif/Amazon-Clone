@@ -27,4 +27,5 @@
         android:name="com.example.amazonclone.Activities.ui.Settings.SettingsFragment"
         android:label=""
         tools:layout="@layout/fragment_slideshow" />
+
 </navigation>
