@@ -56,12 +56,18 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="my_account">My Account</string>
     <string name="kundan">Kundan</string>
     <string name="kundan211097_gmail_com">kundan211097@gmail.com</string>
     <string name="_9123171208">9123171208</string>
+
+    <string name="select_a_location_to_see_product_availability">Select a location to see product availability</string>
+    <string name="prime">Prime</string>
+    <string name="mobile">Mobile</string>
+
 
 
 </resources>
