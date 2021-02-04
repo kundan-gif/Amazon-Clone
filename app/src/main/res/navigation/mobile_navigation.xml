@@ -27,5 +27,10 @@
         android:name="com.example.amazonclone.Activities.ui.Settings.SettingsFragment"
         android:label=""
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_yourAccount"
+        android:name="com.example.amazonclone.Activities.ui.Account.YourAccountFragment"
+        android:label=""
+        tools:layout="@layout/fragment_slideshow" />
 
 </navigation>
