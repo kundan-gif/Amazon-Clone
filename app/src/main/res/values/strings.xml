@@ -59,6 +59,8 @@
     <string name="select_a_location_to_see_product_availability">Select a location to see product availability</string>
     <string name="prime">Prime</string>
     <string name="mobile">Mobile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
