@@ -146,6 +146,7 @@
                         <ImageView
                             android:layout_width="@dimen/dp_50"
                             android:layout_height="60dp"
+                            android:id="@+id/ivFashionLogo"
                             android:background="@drawable/circle_bg"
                             android:src="@drawable/fashion" />
 

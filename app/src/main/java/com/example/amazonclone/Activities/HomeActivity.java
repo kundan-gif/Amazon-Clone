@@ -1,8 +1,10 @@
 package com.example.amazonclone.Activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.ImageButton;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -18,6 +20,7 @@ import androidx.appcompat.widget.Toolbar;
 import com.example.amazonclone.R;
 
 public class HomeActivity extends AppCompatActivity {
+    private ImageButton cart;
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -26,6 +29,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Toolbar toolbar = findViewById(R.id.toolbar);
+        cart=findViewById(R.id.tvCart);
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -39,6 +43,7 @@ public class HomeActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+        cartActivity();
     }
 
     @Override
@@ -53,5 +58,14 @@ public class HomeActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+    public void cartActivity(){
+        cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(HomeActivity.this,CartActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

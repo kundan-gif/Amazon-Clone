@@ -1,9 +1,11 @@
 package com.example.amazonclone.Activities.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
@@ -13,6 +15,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.models.SlideModel;
+import com.example.amazonclone.Activities.FashionActivity;
 import com.example.amazonclone.R;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +24,7 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
     private Toolbar toolbar;
+    private ImageView mIvFashionLogo;
 
 //    int[] images = {R.drawable.imageone, R.drawable.imagetwo, R.drawable.imagethree};
 
@@ -55,6 +59,18 @@ public class HomeFragment extends Fragment {
         slideModels.add(new SlideModel(R.drawable.imagefour,""));
         slideModels.add(new SlideModel(R.drawable.imagesix,""));
         imageSlider.setImageList(slideModels,true);
+        initViews(view);
+    }
+
+    private void initViews(View view) {
+        mIvFashionLogo=view.findViewById(R.id.ivFashionLogo);
+        mIvFashionLogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(), FashionActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
