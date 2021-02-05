@@ -33,5 +33,10 @@
         android:name="com.example.amazonclone.Activities.ui.SaleOnAmazon.SaleOnAmazonFragmen"
         android:label=""
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_amazonPay"
+        android:name="com.example.amazonclone.Activities.ui.AmazonPay.AmazonPayFragment"
+        android:label=""
+        tools:layout="@layout/fragment_slideshow" />
 
 </navigation>
