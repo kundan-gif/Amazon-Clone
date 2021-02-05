@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.amazonclone.ClickListener;
@@ -11,7 +12,6 @@ import com.example.amazonclone.PojoClasses.ResponseElectronics;
 import com.example.amazonclone.PojoClasses.ResponseFashion;
 import com.example.amazonclone.R;
 import com.example.amazonclone.ViewHolderClass.ElectronicsAdapter;
-import com.example.amazonclone.ViewHolderClass.FashionAdapter;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -70,5 +70,15 @@ public class ElectronicsActivity extends AppCompatActivity implements ClickListe
     @Override
     public void onItemClicked(ResponseFashion model, int position) {
 
+    }
+
+    @Override
+    public void onItemElectronicsClicked(ResponseElectronics responseElectronics, int position) {
+        Intent intent=new Intent(ElectronicsActivity.this,ElectronicsClickActivity.class);
+        intent.putExtra("titleElectronics",responseElectronics.getTitle());
+        intent.putExtra("priceElectronics",responseElectronics.getPrice());
+        intent.putExtra("description",responseElectronics.getDescription());
+        intent.putExtra("imageElectronics",responseElectronics.getImage());
+        startActivity(intent);
     }
 }

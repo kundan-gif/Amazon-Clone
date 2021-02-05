@@ -25,5 +25,11 @@ public class ElectronicsViewHolder extends RecyclerView.ViewHolder {
     }
     public void setData(ResponseElectronics responseElectronics){
         Glide.with(mImageElectronics.getContext()).load(responseElectronics.getImage()).into(mImageElectronics);
+        mImageElectronics.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                clickListener.onItemElectronicsClicked(responseElectronics,getAdapterPosition());
+            }
+        });
     }
 }

@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.amazonclone.ClickListener;
+import com.example.amazonclone.PojoClasses.ResponseElectronics;
 import com.example.amazonclone.PojoClasses.ResponseFashion;
 import com.example.amazonclone.R;
 import com.example.amazonclone.ViewHolderClass.FashionAdapter;
@@ -85,6 +86,21 @@ public class FashionActivity extends AppCompatActivity implements ClickListener 
 
     @Override
     public void onItemClicked(ResponseFashion model, int position) {
+        Intent intent=new Intent(FashionActivity.this,CartActivity.class);
+        intent.putExtra("imageElec",model.getImage());
+        intent.putExtra("titleElec",model.getTitle());
+        intent.putExtra("description",model.getDescription());
+        intent.putExtra("priceFromIntent",model.getPrice());
+        startActivity(intent);
+    }
 
+    @Override
+    public void onItemElectronicsClicked(ResponseElectronics responseElectronics, int position) {
+//        Intent intent=new Intent(FashionActivity.this,CartActivity.class);
+//        intent.putExtra("imageElec",responseElectronics.getImage());
+//        intent.putExtra("titleElec",responseElectronics.getTitle());
+//        intent.putExtra("description",responseElectronics.getDescription());
+//        intent.putExtra("priceFromIntent",responseElectronics.getPrice());
+//        startActivity(intent);
     }
 }

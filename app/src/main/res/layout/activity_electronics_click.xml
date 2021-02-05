@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ElectronicsClickActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvElectronicsTitle"
+        android:layout_margin="@dimen/dp_20"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/teal_700"
+        android:text="Brand: Microsoft"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvElectronicsDesc"
+        android:textSize="14sp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:text="Alcatel TKEE MAX Tablet with Google Voice Assistant (10.1inch, 2GB+32GB, Wi-Fi only, Android 10, Type C Charging), Mint Green"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:id="@+id/imageViewElectronics"
+        android:layout_margin="@dimen/dp_20"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvElectronicsPrice"
+        android:textColor="@color/black"
+
+        android:textSize="35sp"
+        android:layout_margin="@dimen/dp_20"
+        android:text="8,698"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dp_20"
+        android:scaleType="fitXY"
+        android:src="@drawable/emifullfilled"
+        android:layout_height="100dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dp_10"
+        android:id="@+id/btnAddToCartElectronics"
+        android:background="@drawable/gradiantbtn_bg"
+        android:textAllCaps="false"
+        android:text="@string/add_to_cart"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/gradiantbtn_bg"
+        android:textAllCaps="false"
+        android:text="@string/buy_now"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
