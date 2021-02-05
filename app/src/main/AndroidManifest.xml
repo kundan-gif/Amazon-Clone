@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmazonClone">
-        <activity android:name=".Activities.CartActivity"></activity>
+        <activity android:name=".Activities.ElectronicsActivity"></activity>
+        <activity android:name=".Activities.CartActivity" />
         <activity android:name=".Activities.FashionActivity" />
         <activity
             android:name=".Activities.MobileActivity"

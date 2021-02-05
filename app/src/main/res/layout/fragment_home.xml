@@ -123,6 +123,7 @@
                             android:layout_width="@dimen/dp_50"
                             android:layout_height="60dp"
                             android:background="@drawable/circle_bg"
+                            android:id="@+id/ElectronicsLogo"
                             android:src="@drawable/elctronicsresponse" />
 
                         <TextView

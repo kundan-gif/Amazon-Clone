@@ -15,6 +15,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.models.SlideModel;
+import com.example.amazonclone.Activities.ElectronicsActivity;
 import com.example.amazonclone.Activities.FashionActivity;
 import com.example.amazonclone.R;
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class HomeFragment extends Fragment {
     private HomeViewModel homeViewModel;
     private Toolbar toolbar;
     private ImageView mIvFashionLogo;
+    private ImageView mIvElectronicsLogo;
 
 //    int[] images = {R.drawable.imageone, R.drawable.imagetwo, R.drawable.imagethree};
 
@@ -64,10 +66,18 @@ public class HomeFragment extends Fragment {
 
     private void initViews(View view) {
         mIvFashionLogo=view.findViewById(R.id.ivFashionLogo);
+        mIvElectronicsLogo=view.findViewById(R.id.ElectronicsLogo);
         mIvFashionLogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getActivity(), FashionActivity.class);
+                startActivity(intent);
+            }
+        });
+        mIvElectronicsLogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(), ElectronicsActivity.class);
                 startActivity(intent);
             }
         });

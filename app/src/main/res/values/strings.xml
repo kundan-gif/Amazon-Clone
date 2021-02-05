@@ -79,6 +79,8 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="add_to_cart">Add to Cart</string>
+    <string name="search_in_electronics">Search in Electronics</string>
+    <string name="new_and_upcoming_launches_in_electronics">New and upcoming launches in electronics</string>
 
 
 </resources>
