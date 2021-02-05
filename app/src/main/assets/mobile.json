@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "title": "Samsung Galaxy M02s",
+    "price": 1209.95,
+    "description": "Samsung Galaxy M02s (Blue,3GB RAM, 32GB Storage) | 5000 mAh | Triple Camera",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71wkpcIfqdL._SL1500_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Mens Casual Premium Slim Fit T-Shirts ",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61SsbmaTJPL._SL1500_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Mens Cotton Jacket",
+    "price": 1055.99,
+    "description": "",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/418nNhCKUvL.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Nokia 2.3 t",
+    "price": 15500.99,
+    "description": "Nokia 2.3 Android 10 Smartphone 2GB RAM, 32GB Storage, Dual Rear Camera, Charcoal",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41gAZdQUyZL.jpg"
+  },
+  {
+    "id": 5,
+    "title": "itel A48",
+    "price": 11695,
+    "description": "itel A48 (Gradation Green, 2GB RAM, 32GB Storage)",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71WPKOJBJIL._SL1500_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "OPPO A15s",
+    "price": 11168,
+    "description": "OPPO A15s (Dynamic Black, 4GB RAM, 64GB Storage) With No Cost EMI/Additional Exchange Offers",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71SvV17lq-L._SL1500_.jpg"
+  },
+  {
+    "id": 7,
+    "title": "New Apple iPhone 12",
+    "price": 49999.99,
+    "description": "New Apple iPhone 12 Mini (256GB) - (Product) RED",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71Sa8%2B9H3xL._SL1500_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Apple iPhone 11",
+    "price": 55010.99,
+    "description": "New Apple iPhone 11 (64GB) - (Product) RED",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81ip-Ab59QL._SL1500_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Apple iPhone 12 ",
+    "price": 600004,
+    "description": "New Apple iPhone 12 (64GB) - Blue",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71I39osHCoL._SL1500_.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Apple iPhone 12",
+    "price": 600109,
+    "description": "New Apple iPhone 12 Mini (64GB) - Black",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71uuDYxn3XL._SL1500_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Apple iPhone 12 Pro Max",
+    "price": 500109,
+    "description": "New Apple iPhone 12 Pro Max (128GB) - Pacific Blue",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71MHTD3uL4L._SL1500_.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Apple iPhone XR",
+    "price": 111114,
+    "description": "Apple iPhone XR 64GB Black (Includes EarPods, Power Adapter)",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/519KIlHA2wL._SL1024_.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Lava Z6 ",
+    "price": 15599,
+    "description": "Lava Z6 (6GB RAM, 64GB Storage)- Aqua Blue",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71QGVjsVNRL._SL1500_.jpg"
+  },
+  {
+    "id": 14,
+    "title": " Samsung Galaxy A71 ",
+    "price": 1999.99,
+    "description": "Samsung Galaxy A71 (Prism Crush Black, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71Wh8ZPcGBL._SL1500_.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Vivo V20",
+    "price": 15556.99,
+    "description": "Vivo V20 Pro 5G (Sunset Melody, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71HLaYtc%2BJL._SL1200_.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Mi",
+    "price": 12229.95,
+    "description": "Mi 10T 5G (Cosmic Black, 6GB RAM, 128GB Storage)",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71phm03oYhL._SL1500_.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Mi ",
+    "price": 12239.99,
+    "description": "Mi 10T Pro 5G (Cosmic Black, 8GB RAM, 128GB Storage)",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71p-KwOWcUL._SL1500_.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Oppo A31",
+    "price": 119900,
+    "description": "Oppo A31 (Fantasy White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61CnyJ-IbML._SL1500_.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Redmi ",
+    "price": 10999,
+    "description": "Redmi 9 (Sky Blue, 4GB RAM, 64GB Storage)",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71A9Vo1BatL._SL1500_.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Redmi ",
+    "price": 12999,
+    "description": "Redmi 9A (Nature Green, 3GB Ram, 32GB Storage) ",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71hDPUM7VPL._SL1500_.jpg"
+  }
+]
