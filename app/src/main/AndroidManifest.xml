@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.amazonclone">
-    <uses-permission android:name="android.permission.INTERNET">
-    </uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,15 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmazonClone">
-
+        <activity android:name=".Activities.ElectronicsClickActivity"></activity>
+        <activity android:name=".Activities.ElectronicsActivity" />
+        <activity android:name=".Activities.CartActivity" />
+        <activity android:name=".Activities.FashionActivity" />
+        <activity
+            android:name=".Activities.MobileActivity"
+            android:label="@string/title_activity_mobile"
+            android:theme="@style/Theme.AmazonClone.NoActionBar" />
         <activity
             android:name=".Activities.HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/Theme.AmazonClone.NoActionBar"></activity>
-
-        <activity android:name=".Activities.LoginActivityP"></activity>
+            android:theme="@style/Theme.AmazonClone.NoActionBar" />
+        <activity android:name=".Activities.LoginActivityP" />
         <activity android:name=".Activities.SignUpActivity" />
-
         <activity android:name=".Activities.SignInActivity" />
         <activity android:name=".Activities.LanguageActivity">
             <intent-filter>

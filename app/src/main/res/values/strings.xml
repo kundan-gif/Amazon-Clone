@@ -56,11 +56,32 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_account">My Account</string>
+    <string name="kundan">Kundan</string>
+    <string name="kundan211097_gmail_com">kundan211097@gmail.com</string>
+    <string name="_9123171208">9123171208</string>
+
     <string name="select_a_location_to_see_product_availability">Select a location to see product availability</string>
     <string name="prime">Prime</string>
     <string name="mobile">Mobile</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_mobile">MobileActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="search_in_electronics">Search in Electronics</string>
+    <string name="new_and_upcoming_launches_in_electronics">New and upcoming launches in electronics</string>
+    <string name="buy_now">Buy Now</string>
 
     <!--Sell on Amazon-->
     <string name="let_us">Let us handle all the hassle</string>
