@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">AmazonClone</string>
+    <string name="select_your_language">Select Your Language</string>
+    <string name="sign_in_to_your_account">Sign in to your Account</string>
+    <string name="view_your_wish_list">View your wish list</string>
+    <string name="find_and_reorder_past_purchase">Find and reorder past purchase</string>
+    <string name="track_your_purchase">Track your purchase</string>
+    <string name="already_a_customer_sign_in">Already a customer?Sign in</string>
+    <string name="new_to_amazon_in_create_an_account">New to Amazon.in?Create an Account</string>
+    <string name="skip_sign_in">Skip sign in</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_shop">Shop by Category</string>
+    <string name="menu_slideshow">Today Deals</string>
+    <string name="menu_yourOrders">Your Orders</string>
+    <string name="menu_buyAgain">Buy Again</string>
+    <string name="menu_yourWishList">Your Wish List</string>
+    <string name="menu_yourAccount">Your Account</string>
+    <string name="menu_AmazonPay">Amazon Pay</string>
+    <string name="menu_tryPrime">Try Prime</string>
+    <string name="menu_sellOnAmazon">Sell On Amazon</string>
+    <string name="menu_ProgramsAndFeatures">Programs and Features</string>
+    <string name="menu_Language">Language</string>
+    <string name="menu_yourNotifications">Your Notifications</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_customerService">Customer Service</string>
+    <string name="hello_kundan">Hello, Kundan</string>
+
+    <string name="passwords_must_be_at_least_6_characters">Passwords must be at least 6 characters.</string>
+    <string name="continue_Login">Continue</string>
+    <string name="by_continuing_you_agree_to_amazon_s_condition_of_use_and_privacy_notice">By continuing, you agree to Amazon\'s Condition of Use and Privacy Notice.</string>
+    <string name="conditions_of_use">Conditions of Use</string>
+    <string name="privacy_notice">Privacy Notice</string>
+    <string name="help">Help</string>
+    <string name="_1996_2021_amazon_com_inc_or_its_affiliates">© 1996-2021, Amazon.com, Inc. or its affiliates</string>
+    <string name="we_will_send_you_a_text_to_verify_your_phone_message_and_data_rates_may_apply">We will send you a text to verify your phone.Message and Data rates may apply.</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_account">My Account</string>
+    <string name="kundan">Kundan</string>
+    <string name="kundan211097_gmail_com">kundan211097@gmail.com</string>
+    <string name="_9123171208">9123171208</string>
+
+    <string name="select_a_location_to_see_product_availability">Select a location to see product availability</string>
+    <string name="prime">Prime</string>
+    <string name="mobile">Mobile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_mobile">MobileActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="search_in_electronics">Search in Electronics</string>
+    <string name="new_and_upcoming_launches_in_electronics">New and upcoming launches in electronics</string>
+    <string name="buy_now">Buy Now</string>
+
+    <!--Sell on Amazon-->
+    <string name="let_us">Let us handle all the hassle</string>
+    <string name="crores_of">Crores of customer and business shop on Amazon.in.So why not sell here?</string>
+    <string name="makes_sale">Makes Sales Sitting at home</string>
+    <string name="why_sell">why sell on Amazon.in?</string>
+    <string name="handle_support">When you choose fulfillment by Amazon,We can pick,pack and deliver your products;and handle customer support</string>
+    <string name="how_to">How to Sell</string>
+    <string name="_1_create">1.Create your account</string>
+    <string name="to_become">To become an Amazon seller,all you need is yor GST and bank account info</string>
+    <string name="add_your">Add your products</string>
+    <string name="list_your">List your products for crores of customers and businesses to purchase.You can even add products using the seller App</string>
+    <string name="start_selling">Start Selling</string>
+    <string name="_2_add_your_products">2.Add your products</string>
+    <string name="List_your_products">List your products for crores of customers and business to purchase.You can even add products using the seller App</string>
+    <string name="_3_start_selling">3.Start Selling</string>
+    <string name="Payments_directly">Payment are directly and securely deposited in your bank account in 7 days,even for pay on Delivery orders</string>
+    <string name="click_here_to_learn">Click here to learn about all the diffrent ways your business can partner and grow with Amazon</string>
+
+
+</resources>
