@@ -38,6 +38,15 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/main_recycler"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="@dimen/dp_120"-->
+            <!--                android:layout_marginTop="6dp"-->
+            <!--                android:layout_marginBottom="6dp"-->
+            <!--                android:background="@color/white"-->
+            <!--                tools:itemCount="2"-->
+            <!--                tools:listitem="@layout/layoutfile" />-->
 
             <TextView
                 android:layout_width="match_parent"
@@ -114,6 +123,7 @@
                             android:layout_width="@dimen/dp_50"
                             android:layout_height="60dp"
                             android:background="@drawable/circle_bg"
+                            android:id="@+id/ElectronicsLogo"
                             android:src="@drawable/elctronicsresponse" />
 
                         <TextView
@@ -137,6 +147,7 @@
                         <ImageView
                             android:layout_width="@dimen/dp_50"
                             android:layout_height="60dp"
+                            android:id="@+id/ivFashionLogo"
                             android:background="@drawable/circle_bg"
                             android:src="@drawable/fashion" />
 
@@ -229,6 +240,35 @@
                 app:period="1000"
                 app:corner_radius="5">
             </com.denzcoskun.imageslider.ImageSlider>
+
+
+<!--            <com.smarteist.autoimageslider.SliderView-->
+<!--                android:id="@+id/main_image_slider"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/dp_150"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginBottom="@dimen/dp_5"-->
+<!--                app:sliderAnimationDuration="500"-->
+<!--                app:sliderAutoCycleDirection="back_and_forth"-->
+<!--                app:sliderAutoCycleEnabled="true"-->
+<!--                app:sliderIndicatorAnimationDuration="500"-->
+<!--                app:sliderIndicatorGravity="center_horizontal|bottom"-->
+<!--                app:sliderIndicatorMargin="@dimen/dp_15"-->
+<!--                app:sliderIndicatorOrientation="horizontal"-->
+<!--                app:sliderIndicatorPadding="3dp"-->
+<!--                app:sliderIndicatorRadius="1.5dp"-->
+<!--                app:sliderIndicatorSelectedColor="@color/white"-->
+<!--                app:sliderIndicatorUnselectedColor="@color/design_default_color_primary"-->
+<!--                app:sliderScrollTimeInSec="3"-->
+<!--                app:sliderStartAutoCycle="true" />-->
+
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/main_recycler_view"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                tools:itemCount="2"-->
+<!--                tools:listitem="@layout/item_layoutp" />-->
 
             <LinearLayout
                 android:layout_width="match_parent"

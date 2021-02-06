@@ -7,6 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.amazonclone.PojoClasses.ResponseMobile;
 import com.example.amazonclone.R;
 
 public class MobileViewHolder extends RecyclerView.ViewHolder {
@@ -28,7 +29,7 @@ public class MobileViewHolder extends RecyclerView.ViewHolder {
         mIvRatingImage = itemView.findViewById(R.id.ivRatingMobile);
     }
 
-    public  void setData(ResponseDTO responseDTO){
+    public  void setData(ResponseMobile responseDTO){
 
 //        mTvTitleMobile.setText(responseDTO.get);
     }

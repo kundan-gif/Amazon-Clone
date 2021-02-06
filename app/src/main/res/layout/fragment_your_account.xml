@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ui.Account.YourAccountFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_20"
+        android:fontFamily="@font/pt_sans_bold"
+        android:text="@string/my_account"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18" />
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:background="@drawable/side_nav_bar"
+      android:padding="@dimen/dp_10"
+      android:layout_height="wrap_content">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:padding="@dimen/dp_25"
+          android:id="@+id/ivAccount"
+          android:layout_margin="@dimen/dp_20"
+          android:background="@drawable/circle_white"
+          android:src="@drawable/ic_menu_camera"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_toRightOf="@+id/ivAccount"
+          android:text="@string/kundan"
+          android:id="@+id/tvAccountName"
+          android:textSize="@dimen/sp_18"
+          android:textColor="@color/black"
+          android:fontFamily="@font/pt_sans_bold"
+           android:layout_marginTop="@dimen/dp_30"
+          android:layout_height="wrap_content"/>
+      <ImageButton
+          android:layout_width="wrap_content"
+          android:src="@drawable/ic_baseline_edit_24"
+          android:layout_alignParentEnd="true"
+          android:background="#A7E7CD"
+          android:padding="@dimen/dp_20"
+          android:layout_centerVertical="true"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_toRightOf="@+id/ivAccount"
+          android:text="@string/kundan211097_gmail_com"
+          android:id="@+id/tvAccountEmail"
+          android:textColor="@color/black"
+
+         android:layout_below="@+id/tvAccountName"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_toRightOf="@+id/ivAccount"
+          android:text="@string/_9123171208"
+          android:id="@+id/tvAccountPhone"
+          android:textColor="@color/black"
+
+          android:layout_below="@+id/tvAccountEmail"
+          android:layout_height="wrap_content"/>
+
+  </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/account"
+            android:scaleType="fitStart"
+            android:layout_height="wrap_content"/>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
