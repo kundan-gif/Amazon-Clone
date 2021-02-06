@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ElectronicsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/side_nav_bar">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_10"
+            android:background="@drawable/search_bg"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawableEnd="@drawable/ic_baseline_camera_alt_24"
+            android:drawablePadding="@dimen/dp_10"
+            android:hint="@string/search_in_electronics"
+            android:imeOptions="actionDone"
+            android:padding="6dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="@font/pt_sans_bold"
+        android:text="@string/new_and_upcoming_launches_in_electronics"
+        android:textColor="@color/black"
+        android:background="@drawable/side_nav_bar"
+        android:padding="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:textSize="26sp"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerViewElectronics"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

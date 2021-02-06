@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "title": "IDEE",
+    "price":"1,125 Save 375 (25%)",
+    "description": "Wayfarer Kidz Sunglass (IDSY561, C2)",
+    "image": "https://images-na.ssl-images-amazon.com/images/G/31/img21/Eyewear/mens_section/must_have_brands/Idee._SY530_QL85_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Fastrack",
+    "price":"1249 Save 149 (12%)",
+    "description": "UV protected Square Men's Sunglasses",
+    "image": "https://images-na.ssl-images-amazon.com/images/G/31/img21/Eyewear/mens_section/must_have_brands/Fastrack._SY530_QL85_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "EYEBOGLER",
+    "price":"449 Save 1,149 (72%)",
+    "description": "Men's Polyester Round Neck T-Shirts",
+    "image": "https://m.media-amazon.com/images/I/71CF7jRT2ML._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Evozana",
+    "price":"629 Save 970 (61%)",
+    "description": "EliteEthnic Solid Kurta Set",
+    "image": "https://m.media-amazon.com/images/I/41nDzksHIrL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Souled Store",
+    "price":"681 Save 318 (32%)",
+    "description": "Good Vibes Only Women and Girls",
+    "image": "https://m.media-amazon.com/images/I/61LhoWQsIsL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "DHRUVI TRENDZ",
+    "price":"299  Save 2,300 (88%)",
+    "description": "Women Plain Top with Half Sleeves",
+    "image": "https://m.media-amazon.com/images/I/61Z4kXc6JSL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Silk Bazar",
+    "price":"649 Save 1,149 (72%)",
+    "description": "Women Straight Kurtas",
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/7/30/dfea5101-7c70-4f14-b454-20aaccbbfbdb1596064073748-2.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Nike",
+    "price":"3,257 Save 2,438 (43%)",
+    "description": "Basketball Sports Shoes for Men",
+    "image": "https://m.media-amazon.com/images/I/61eoV8lLTjL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Red Chief",
+    "price":"2,630 Save 1,165 (31%)",
+    "description": "Men RC2506 Tan Leather Boots",
+    "image": "https://m.media-amazon.com/images/I/81lGinD6CVL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Nike",
+    "price":"777 Save 518 (40%)",
+    "description": "Men's Regular Fit T-Shirt",
+    "image": "https://m.media-amazon.com/images/I/91vimQ-7BtL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Nike",
+    "price":"899 Save 1,149 (72%)",
+    "description": "Men's Printed Regular fit T-Shirt",
+    "image": "https://m.media-amazon.com/images/I/71Skc3xzExL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Columbia",
+    "price":"5,444 Save 1,555 (22%)",
+    "description": "Men's Track Jacket",
+    "image": "https://m.media-amazon.com/images/I/71Q9FK63uDL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Dennis Lingo",
+    "price":"999 Save 1,149 (72%)",
+    "description": "Men's Solid Slim Fit Casual Shirt",
+    "image": "https://m.media-amazon.com/images/I/61Z4RuwOZeL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 14,
+    "title": "GRITSTONES",
+    "price":"449 Save 1,149 (72%)",
+    "description": "Men's Regular Fit Casual Shirt",
+    "image": "https://m.media-amazon.com/images/I/61MfoUmN3gL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Realone",
+    "price":"349 Save 650 (65%)",
+    "description": "Men's Formal Shirt",
+    "image": "https://m.media-amazon.com/images/I/61kgtdMZbTL._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Amazon Brand - Symbol",
+    "price":"609 Save 690 (53%)",
+    "description": "Men's Chino Regular Casual Pants",
+    "image": "https://m.media-amazon.com/images/I/81aKPu-Gl-L._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Van Heusen",
+    "price": "2,395 Save 600 (20%)",
+    "description": "Men's Jackets",
+    "image": "https://images-na.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/V_Day_Flip/MF/Musthaves/MF-wardrobe-basics_02._SS400_QL85_.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Mitaha-Think",
+    "price":"1,940 Save 410 (20%)",
+    "description": "Mitaha Casual Western Off Shoulder",
+    "image": "https://images-na.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/V_Day_Flip/SBC/Women/SBCs-hex_01._SY530_QL85_.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Fastrack",
+    "price": "2,395 Save 600 (20%)",
+    "description": "Denim Analog Gray Dial Men's",
+    "image": "https://m.media-amazon.com/images/I/71vyF99AZ3L._AC_UL480_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Fastrack",
+    "price":"1,640 Save 410 (20%)",
+    "description": "Casual Analog White Dial Men's",
+    "image": "https://m.media-amazon.com/images/I/71fyPyG-mbL._AC_UL480_FMwebp_QL65_.jpg"
+  }
+
+]
