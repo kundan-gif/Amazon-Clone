@@ -7,13 +7,19 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.amazonclone.PojoClasses.ResponseMobile;
 import com.example.amazonclone.R;
 
 import java.util.List;
 
 public class MobileAdapter extends RecyclerView.Adapter<MobileViewHolder> {
 
-//    private List<>
+    private List<ResponseMobile> responseMobileList;
+
+    public MobileAdapter(List<ResponseMobile> responseMobileList) {
+        this.responseMobileList = responseMobileList;
+    }
+
     @NonNull
     @Override
     public MobileViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -23,11 +29,13 @@ public class MobileAdapter extends RecyclerView.Adapter<MobileViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MobileViewHolder holder, int position) {
+        ResponseMobile responseMobile = responseMobileList.get(position);
+        holder.setData(responseMobile);
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return responseMobileList.size();
     }
 }

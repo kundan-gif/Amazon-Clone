@@ -70,6 +70,11 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="see_all">See All</string>
+    <string name="dressing_for_girls">Dressing for girls</string>
+    <string name="dressing_for_kids">Dressing for kids</string>
+    <string name="t_shirt_for_boys">T-Shirt for boys</string>
+    <string name="sweatshirt_for_boys">Sweatshirt for boys</string>
 
 
 </resources>

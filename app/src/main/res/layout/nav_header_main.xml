@@ -22,9 +22,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:textSize="@dimen/sp_22"
-        android:text="@string/hello_kundan"
         android:textStyle="italic"
         android:textColor="@color/black"
+        android:text="Lloyd Decosta"
         android:layout_marginStart="@dimen/dp_10"
         android:id="@+id/tvHello"
         android:layout_height="wrap_content"/>
