@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activities.MobileActivity">
+    tools:context=".Activities.GroceryActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,9 +27,13 @@
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/mobileRecyclerView"
+        android:id="@+id/groceryRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-    <include layout="@layout/content_mobile" />
+        android:layout_height="match_parent" />
+
+
 
 </LinearLayout>
+
+
+

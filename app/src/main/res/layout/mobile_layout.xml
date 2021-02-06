@@ -2,7 +2,7 @@
 <androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/dp_10"
+    android:layout_margin="@dimen/dp_20"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <RelativeLayout
@@ -13,13 +13,15 @@
 
         <ImageView
             android:id="@+id/ivMobilePic"
-            android:layout_width="wrap_content"
-            android:layout_margin="@dimen/dp_20"
-            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
             />
+
         <TextView
             android:id="@+id/tvTitleMobile"
-            android:layout_width="wrap_content"
+            android:layout_width="220dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/dp_20"
             android:layout_toEndOf="@+id/ivMobilePic"
@@ -37,19 +39,44 @@
 
         <ImageView
             android:id="@+id/ivRatingMobile"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvPriceMobile"
             android:layout_toEndOf="@+id/ivMobilePic"
             android:src="@drawable/stars_3_5"
             />
+        <ImageView
+            android:id="@+id/ivBatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs_assets_fba_badge"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_toEndOf="@+id/ivMobilePic"
+            android:layout_below="@+id/ivRatingMobile"
+            />
+        <ImageView
+            android:id="@+id/ivPrimebatch"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs_assets_prime_standard_badge"
+            android:layout_toEndOf="@+id/ivMobilePic"
+            android:layout_below="@+id/ivBatch"
+            />
+
+<!--        <ImageView-->
+<!--            id-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
         <TextView
             android:id="@+id/tvDescMobile"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ivMobilePic"
+            android:layout_height="60dp"
+            android:layout_toEndOf="@+id/ivMobilePic"
+            android:layout_below="@+id/ivPrimebatch"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_5"
             />
-
 
     </RelativeLayout>
 

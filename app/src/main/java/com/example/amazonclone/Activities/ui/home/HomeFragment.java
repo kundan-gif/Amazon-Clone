@@ -5,7 +5,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import android.widget.Button;
+
+import android.widget.TextView;
+
 import android.widget.ImageView;
+
 import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
@@ -15,14 +21,20 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.models.SlideModel;
+
+
+import com.example.amazonclone.Activities.MobileActivity;
+
 import com.example.amazonclone.Activities.ElectronicsActivity;
 import com.example.amazonclone.Activities.FashionActivity;
+
 import com.example.amazonclone.R;
 import java.util.ArrayList;
 import java.util.List;
 
 public class HomeFragment extends Fragment {
-
+    private ImageView MivMobileButton, MivGroceryButton;
+    private Button mBtnSeeAll;
     private HomeViewModel homeViewModel;
     private Toolbar toolbar;
     private ImageView mIvFashionLogo;
@@ -48,6 +60,10 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+       initView(view);
+    }
+
+    private void initView(View view) {
         ImageSlider imageSlider = view.findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
         slideModels.add(new SlideModel(R.drawable.imagesoffer,""));
@@ -61,6 +77,28 @@ public class HomeFragment extends Fragment {
         slideModels.add(new SlideModel(R.drawable.imagefour,""));
         slideModels.add(new SlideModel(R.drawable.imagesix,""));
         imageSlider.setImageList(slideModels,true);
+
+        MivMobileButton = view.findViewById(R.id.ivMobileIcon);
+        mBtnSeeAll = view.findViewById(R.id.btnSeeAll);
+
+        MivGroceryButton = view.findViewById(R.id.ivGroceryHome);
+        MivMobileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), MobileActivity.class);
+                startActivity(intent);
+            }
+        });
+        mBtnSeeAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent inentTwo = new Intent(getActivity(),MobileActivity.class);
+                startActivity(inentTwo);
+            }
+        });
+     
+
+
         initViews(view);
     }
 
@@ -81,6 +119,7 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
     }
 
 }

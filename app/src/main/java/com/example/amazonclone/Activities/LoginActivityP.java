@@ -4,20 +4,23 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RadioButton;
 
+import com.example.amazonclone.Activities.ui.home.HomeFragment;
 import com.example.amazonclone.R;
 
-public class LoginActivityP extends AppCompatActivity implements View.OnClickListener{
-
+public class LoginActivityP extends AppCompatActivity implements View.OnClickListener {
+    private EditText mEtUserName;
     private RadioButton mRadiobtnCreatAcc;
     private Button mBtnContineLog;
 
 
     @Override
-    protected void onCreate( Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_p);
         initView();
@@ -38,9 +41,10 @@ public class LoginActivityP extends AppCompatActivity implements View.OnClickLis
                 Intent intent = new Intent(LoginActivityP.this, SignUpActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.btnAlreadyCustomer:
-               Intent intentOne = new Intent(LoginActivityP.this,HomeActivity.class);
-               startActivity(intentOne);
+            case R.id.btnContineLogin:
+                Intent intentOne = new Intent(LoginActivityP.this, HomeActivity.class);
+                intentOne.putExtra("userName", mEtUserName.getText().toString());
+                startActivity(intentOne);
                 break;
 
         }

@@ -11,10 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmazonClone">
+
+
         <activity android:name=".Activities.ElectronicsClickActivity"></activity>
         <activity android:name=".Activities.ElectronicsActivity" />
         <activity android:name=".Activities.CartActivity" />
         <activity android:name=".Activities.FashionActivity" />
+
         <activity
             android:name=".Activities.MobileActivity"
             android:label="@string/title_activity_mobile"
