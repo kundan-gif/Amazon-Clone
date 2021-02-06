@@ -7,12 +7,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-
 import com.example.amazonclone.PojoClasses.ResponseGrocery;
 import com.example.amazonclone.R;
 
 public class GroceryViewHolder extends RecyclerView.ViewHolder {
-
     private ImageView mIvGroceryImage;
     public GroceryViewHolder(@NonNull View itemView) {
         super(itemView);

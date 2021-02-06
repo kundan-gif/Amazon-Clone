@@ -14,6 +14,7 @@ import java.util.List;
 
 public class GroceryAdapter extends RecyclerView.Adapter<GroceryViewHolder> {
 
+    //    private List<ResponseGrocery> responseGroceryList;
     private List<ResponseGrocery> responseGroceryList;
 
     public GroceryAdapter(List<ResponseGrocery> responseGroceryList) {
@@ -23,7 +24,7 @@ public class GroceryAdapter extends RecyclerView.Adapter<GroceryViewHolder> {
     @NonNull
     @Override
     public GroceryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.grocery_layout,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.grocery_layout, parent, false);
         return new GroceryViewHolder(view);
     }
 

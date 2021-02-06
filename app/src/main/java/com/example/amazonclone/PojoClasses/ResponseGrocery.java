@@ -10,11 +10,14 @@ public class ResponseGrocery implements Serializable {
 	@SerializedName("image")
 	private String image;
 
-	public void setImage(String image){
-		this.image = image;
-	}
+	@SerializedName("id")
+	private int id;
 
 	public String getImage(){
 		return image;
+	}
+
+	public int getId(){
+		return id;
 	}
 }
