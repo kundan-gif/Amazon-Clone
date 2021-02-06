@@ -7,10 +7,4 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="status_bar">#73CBCA</color>
-    <color name="grey">#C4C4C4</color>
-    <color name="Yellow">#ffdb58</color>
-    <color name="green">#19443c</color>
-    <color name="Yellow2">#ffdb58</color>
-    <color name="LightTeal">#B2FFFF</color>
 </resources>
